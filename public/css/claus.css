@@ -1,0 +1,360 @@
+/* --------------------------------------------- 
+
+ *
+ * --------------------------------------------- 
+ * colors: 
+  white            #ffffff  // websafe
+  blue             #608fef  //
+  bgblue           #6699ff  // websafe
+  bgblue_light     #dfe9fd  // not, but looks nice on linux and windoze.
+  green            #01B401  //
+  lt green         #ccffcc  // websafe
+  ??               #02a002  // green 
+  lighter yellow   #ffffd9  // lighter lemon yellow on ms, lighter on linux 
+  light yellow     #ffffcc  // lemon yellow on ms, lighter on linux - websafe
+  wheat            #e5e5e5  // light purple on linux
+  orange           #fd8739  // bright orange on linux
+  red              #cc0000  // websafe
+  ??               #ffff33  // red - websafe
+  red_dark         #990000  // websafe
+  kharku_dark      #929fa3  // ??
+  kharku_light     #a7b2b6  // mid grey on linux
+  purple           #993399  //
+  grey_mid         #cccccc  // websafe
+  grey_light       #fd8739  //
+  grey_lighter     #444444  // 
+  grey_black       #666666  // websafe
+  grey_dark        #999999  // websafe
+  black            #000000  // websafe
+ * --------------------------------------------- */
+
+/* *** { the basics *** */
+
+/* body and general stuff */    
+
+body {
+    margin:         0px 0% 0px 0%;
+    background-color:  #9B2212;  
+    font-family:    verdana, arial, helvetica, sans-serif;
+	font-size: 12px;
+}
+
+table.LineBorder  {
+	background-color:  #E2321B; 
+}
+
+table.LineBorderSoft  {
+	border-width:2px;
+	border-style: groove;
+	border-color:#E2321B;
+	padding-left : 10px;
+}
+
+td.tp_content  {
+	background-color:  #ffb726; 
+}
+
+td.tp_content_top  {
+	background-color:  #ffb726; 
+}
+
+table.MenuItem{
+	border-width:2px;
+	border-style: groove;
+	border-color:#e2c41b;
+	background-color:  #cc3c29;
+	/*background-image:  url(../images/work/envmap_gold.jpg); 
+	background-image:  url(../images/backgrounds/menu.gif); 
+	background-repeat: no-repeat;
+	background-position: top left;*/
+}
+
+td.MenuItem  {
+	border-width:2px;
+	/*border-style: none;*/
+	border-color:#ffb726;
+	background-color:  #cc3c29;
+}
+
+table.Top_table
+{
+	border-bottom-width:5px;
+	border-bottom-style: groove;
+	border-bottom-color:#FFC61C;
+}
+
+td.ImageDisplay
+{
+	margin-top: 0px;
+	padding-top : 0px;
+	background-color:  #ffb726; 
+}
+
+td.ImageDisplayBottom
+{
+	margin-top: 0px;
+	padding-top : 0px;
+	padding-left : 45px;
+	background-color:  #ffb726; 
+}
+
+Div.DivContent
+{
+	overflow:auto;
+	width:475px;
+	height:330px;
+	scrollbar-base-color:#fff43d;
+}
+
+
+
+/* links */    
+a.mail:link {
+    color:           #006300; 
+    text-decoration: none;
+}
+
+a.mail:visited {
+    color:           #006300; 
+    text-decoration: none;
+}
+
+a.mail:hover {
+    color:           #006300; 
+    text-decoration: underline;
+}
+
+a:link {
+    color:           #006300; 
+    text-decoration: none;
+	font-size: 17px;
+}
+
+a:visited {
+    color:           #006300; 
+    text-decoration: none;
+	font-size: 17px;
+}
+
+a:hover {
+    color: #006300; 
+    text-decoration: underline;
+	font-size: 17px;
+}
+
+a.MenuItem:link {
+    color:#ffb726; 
+    text-decoration: none;
+	padding : 6px;
+	margin-bottom:0px;
+	font-size:      18px;
+	font-style: italic;
+	font-weight: bold;
+	font-family: sherif;
+
+}
+
+a.MenuItem:visited {
+    color:#ffb726; 
+    text-decoration: none;
+	padding : 6px;
+	margin-bottom:0px;
+	font-size:      18px;
+	font-style: italic;
+	font-weight: bold;
+	font-family: sherif;
+}
+
+a.MenuItem:hover {
+    color:	#ffb726; 
+    text-decoration: underline;
+	padding	: 6px;
+	margin-bottom:0px;
+	font-size:      18px;
+	font-style: italic;
+	font-weight: bold;
+	font-family: sherif;
+
+}
+
+
+a.LinksLink:link {
+    color:	#006300; 
+    text-decoration: none;
+	padding	: 6px;
+	margin-bottom: 0px;
+	font-size:      18px;
+	font-style: italic;
+	font-weight: bold;
+	font-family:    sherif;
+	margin-left: 10px;
+	padding-left: 10px;
+
+}
+
+a.LinksLink:visited {
+    color:	#006300; 
+    text-decoration: none;
+	padding	: 6px;
+	margin-bottom: 0px;
+	font-size:      18px;
+	font-style: italic;
+	font-weight: bold;
+	font-family:    sherif;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+
+a.LinksLink:hover {
+    color:	#006300; 
+    text-decoration: underline;
+	padding	: 6px;
+	margin-bottom: 0px;
+	font-size:      18px;
+	font-style: italic;
+	font-weight: bold;
+	font-family: sherif;
+	margin-left: 10px;
+	padding-left: 10px;
+
+}
+
+h1{
+	font-family:    verdana, arial, helvetica, sans-serif;
+	font-size: 30px;
+	Color : #008000
+}
+
+
+p{
+	font-size:      70%;
+	color:      #000000;
+}
+
+font.mail {
+    color:           #006300; 
+    text-decoration: none;
+	font-size: 17px;
+}
+
+p.NiceSoftTexte{
+	font-size:      18px;
+	color:      #7F0000;
+	font-weight: bold;
+	font-style: italic;
+	margin-top: 0px;
+	padding-top: 0px;
+	font-family: english, Georgia;
+}
+
+p.SmilyText  {
+	font-size:      100%;
+	font-weight: bold;
+	font-style: italic;
+	color:      #006300;
+	margin: 0px;
+	padding: 0px;
+	font-family: georgia,Verdana;
+}
+
+p.Common_title{
+	font-size:   15px;
+	font-style: italic;
+	font-weight: bold;
+	color:      #7F0000;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+	font-family: serif;
+}
+
+P.PriceTableTitle{
+	font-size:   14px;
+	font-weight: bold;
+	color:      #590000;
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+	font-family: serif;
+}
+
+P.PriceTableCell{
+	font-size:   15px;
+	font-weight: bold;
+	color:      #7F0000;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	margin-top: 1px;
+	padding-top: 1px;
+	margin-left: 10px;
+	padding-left: 10px;
+	font-family: serif;
+}
+
+p.PriceTexteTitle{
+	font-size:   18px;
+	font-style: italic;
+	font-weight: bold;
+	color:      #008000;
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+	font-family: serif;
+}
+
+p.PriceTableCellLittle{
+	font-size:   12px;
+	font-weight: bold;
+	color:      #590000;
+	margin-bottom: 0px;
+	padding-bottom: 2px;
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-left: 10px;
+	padding-left: 10px;
+	font-family: serif;
+}
+
+P.InfoText
+{
+	font-size:   12px;
+	font-weight: bold;
+	color:      #590000;
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+	font-family: serif;
+}
+
+li {
+    padding-left:     4px; 
+    margin:           0px 0px 0px 0px;
+    list-style-type:  none;
+}
+
+li.FeaturesItem
+{
+    padding-left:     4px; 
+    margin:           2px 2px 2px 2px;
+    list-style-type:  disc;
+}
+
+/* *** { old text encapsulation compatibility rumplestilkin *** */
+i     { font-style:      italic}
+u     { text-decoration: underline}
+em    { font-weight:     bold}
+b     { font-weight:     bold}
+
+/* end of stylesheet */
